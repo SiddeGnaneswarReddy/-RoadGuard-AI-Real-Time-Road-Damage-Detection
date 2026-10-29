@@ -98,3 +98,4 @@ if __name__ == "__main__":
     with open("config.json", "w") as f:
         json.dump(DEFAULT_CONFIG, f, indent=2)
     print("Saved default config.json successfully.")
+
